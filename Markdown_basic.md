@@ -205,5 +205,20 @@ public class BootSpringBootApplication {
 }
 ```
 
+## 2.5. 강조
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+```
+* *single asterisks*
+* _single underscores_
+* **double asterisks**
+* __double underscores__
+* ~~cancelline~~
+
+
 
 > 참고: https://gist.github.com/ihoneymon/652be052a0727ad59601
