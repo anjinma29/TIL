@@ -34,8 +34,6 @@ Number.isInteger(1); // true
 Number.isInteger(0.1); // false
 ```
 
----
-
 ### __number 타입의 특이한 값들__
 - NaN(Not a Number) -> 계산 불가능한 연산의 결과값을 나타내기 위해 사용됨.
 - -0
@@ -57,7 +55,6 @@ Number.isNaN(thisIsNan); // true
 Object.is(thisIsNan, NaN); // true
 ```
 
----
 
 ### __문자열을 number 타입으로__
 ```
@@ -66,7 +63,7 @@ parseInt('110', 2); // 6 (문자열을 2진수로 간주한다.)
 parseFloat('12.345'); // 12.345
 parseInt('hello'); // NaN
 ```
----
+
 ### __다른 타입과의 연산__
 JavaScript는 number 타입과 다른 타입 간의 연산도 허용하지만, 그 결과가 별로 우아하지는 않음.
 ```
@@ -92,7 +89,6 @@ if(Number.isNaN(num)){
 }
 ```
 
----
 ### __Math 객체__
 JavaScript에 내장된 Math 객체에는 수 연산을 위한 많은 메소드와 상수들이 내장되어 있음.
 ```
@@ -131,7 +127,6 @@ Math.random(); // 0과 1 사이의 값이 임의로 반환됩니다.
 Math.max(1, 2, 3, 4, 5); // 5
 ```
 
----
 ### __number 타입의 메소드__
 number 타입은 객체가 아니지만, 마치 객체처럼 메소드를 사용할 수 있음. 이는 JavaScript가 래퍼 객체(wrapper object)라는 기능을 제공하기 때문.
 ```
